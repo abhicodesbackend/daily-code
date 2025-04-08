@@ -1,0 +1,17 @@
+#single line comment
+"""
+this is a trial python code
+during workshop
+10th june 2019
+Jordan Clain
+"""
+
+print('Hello World!')
+
+a=20
+print(a)
+
+x=1
+y=2
+z=x*y
+print(z)
