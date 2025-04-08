@@ -1,0 +1,3 @@
+1. list the fundamental datatypes in python
+2. develop a python code to find the fibonacci numbers and sttore it in a list
+3. for above compute pisano period, divider=5 
