@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"strconv"
 )
 
 func print() {
@@ -16,6 +17,21 @@ func print() {
 	fmt.Println(s)
 }
 
+func sum() {
+	var sum int
+
+	for i := 1; i < len(os.Args); i++ {
+		num, err := strconv.Atoi(os.Args[i])
+		if err != nil {
+			fmt.Println("Conversion failed:", err)
+		}
+		sum += num
+	}
+
+	fmt.Println(sum)
+}
+
 func main() {
-	print()
+	// print()
+	sum()
 }
